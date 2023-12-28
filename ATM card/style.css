@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: antiquewhite;
+    font-family: "poppins",sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./6077811.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+section{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-self: center;
+    color: rgb(3,3,3);
+    perspective: 100px;
+}
+.main{
+    
+    position: relative;
+    height: 250px;
+    width: 450px;
+    transition: 0.6s;
+    transform-style: preserve-3d;
+}
+.main:hover{
+    transform: rotateY(180deg);
+}
+.main .card{
+    background-image:url(./22.jpg);
+    position: absolute;
+    height: 100%;
+    padding: 25px;
+    width: 100%;
+    border-radius: 25px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 25px 25px rgb(30,31,30);
+    backface-visibility: hidden;
+}
+header{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+header{
+    justify-content: space-between;
+}
+.front .logo img{
+    width: 48px;
+}
+.logoname{
+    color: black;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.chip{
+    width: 50px;
+}
+.card-details{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+h6{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.number1{
+    font-size: 28px;
+    padding-top: 7px;
+}
+.number2{
+    font-size: 20px;
+    margin-top: 10px;
+}
+h5.number{
+font-size: 25px;
+letter-spacing: 16px;
+}
+h5.name{
+    margin-top: 40px;
+}
+.v{
+    color: #3b3a3a;
+    font-weight: bold;
+}
+#v1{
+    margin-bottom: 30px;
+}
+.back-face{
+    transform: rotateY(180deg);
+    border: none;
+    padding: 15px 25px 25px 250px;
+}
+.back-face h6{
+    font-size: 10px;
+    color: #1b1a1a;
+
+}
+.strip{
+    margin-top: 10px;
+    position: absolute;
+    top: 45;
+    left: 0;
+    height: 45px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.95;
+}
+.sign{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 80px;
+    height: 40px;
+    width: 85%;
+    border-radius: 6px;
+    /* background: repeating-linear-gradient(#e8e5e5
+    #fbf6f6 3px
+    #d5cece 0px
+    #1b1a1a 9px); */
+    background-color: black;
+}
+i{
+    color: black;
+    font-size: 15px;
+    padding: 5px 6px;
+    border-radius: 4px;
+    background-color: white;
+    margin-right: -30px;
+
+}
+.back-face h5{
+    font-size: 8px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.add{
+    margin-top: 20px;
+    display: flex;
+    color: #a39e9e;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.add h6{
+    font-size: 15px;
+}
+.service h6{
+    font-size: 30px;
+}
